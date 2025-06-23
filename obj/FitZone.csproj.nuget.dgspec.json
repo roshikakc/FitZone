@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone\\FitZone.csproj": {}
+    "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone\\FitZone.csproj": {
+    "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone\\FitZone.csproj",
+        "projectUniqueName": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone.csproj",
         "projectName": "FitZone",
-        "projectPath": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone\\FitZone.csproj",
+        "projectPath": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone.csproj",
         "packagesPath": "C:\\Users\\shish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\FitZone\\obj\\",
+        "outputPath": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shish\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -22,6 +22,6 @@ namespace MembershipPlan.Models
         [Required]
         public string PhoneNumber { get; set; }
         [Required]
-        public int SelecteddPlan { get; set; }
+        public int SelectedPlan { get; set; }
     }
 }

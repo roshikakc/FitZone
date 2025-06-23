@@ -12,11 +12,11 @@ public class MembershipPlanController : Controller
         _configuration = configuration;
     }
 
-    private static List<MembershipPlan> plans = new List<MembershipPlan>
+    private static List<MembershipPlan.Models.MembershipPlan> plans = new List<MembershipPlan.Models.MembershipPlan>
     {
-        new MembershipPlan { PlanId = 1, PlanName = "Basic", DurationInMonths = 1, Price = 1000, Description = "Basic gym access" },
-        new MembershipPlan { PlanId = 2, PlanName = "Standard", DurationInMonths = 3, Price = 2500, Description = "Includes group classes" },
-        new MembershipPlan { PlanId = 3, PlanName = "Premium", DurationInMonths = 12, Price = 8000, Description = "Full access with trainer" }
+        new  MembershipPlan.Models.MembershipPlan { PlanId = 1, PlanName = "Basic", Duration = 1, Price = 1000, Description = "Basic gym access" },
+        new  MembershipPlan.Models.MembershipPlan { PlanId = 2, PlanName = "Standard", Duration = 3, Price = 2500, Description = "Includes group classes" },
+        new  MembershipPlan.Models.MembershipPlan { PlanId = 3, PlanName = "Premium", Duration = 12, Price = 8000, Description = "Full access with trainer" }
     };
 
 
@@ -38,12 +38,30 @@ public class MembershipPlanController : Controller
 
         while (reader.Read())
         {
-           var memberships = new UserMembership
-           {
-            
-            };
+            usermemberships.Add(new UserMembership
+            {
+                Id = Convert.ToInt32(reader["Id"]),
+                UserName = reader["UserName"].ToString(),
+                Email = reader["Email"].ToString(),
+                PhoneNumber = reader["PhoneNumber"].ToString(),
+                SelectedPlan = Convert.ToInt32(reader["SelectedPlan"]),
+
+
+            });
         }
-        return View(employees);
+        return View(usermemberships);
+    }
+
+    public IActionResult Plan()
+    {
+        return View(plans);
+    }
+    
+     //show create form
+    [HttpGet]
+    public IActionResult Create()
+    {
+        return View();
     }
 }
 

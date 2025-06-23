@@ -1,0 +1,28 @@
+@model List<MembershipPlan.Models.MembershipPlan>
+@{
+    ViewData["Title"] = "Plans";
+}
+
+<h2>Member</h2>
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <th>PlanName</th>
+            <th>Duration</th>
+            <th>Price</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+         @foreach (var plan in Model)
+         {
+            <tr>
+                <td>@plan.PlanName</td>
+                <td>@plan.Duration</td>
+                <td>@plan.Price</td>
+                <td>@plan.Description</td>
+            </tr>
+         }
+            
+        </tbody>
+    </table>
+</div>

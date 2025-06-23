@@ -9,59 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FitZone
 build_property.RootNamespace = FitZone
-build_property.ProjectDir = C:\Users\shish\OneDrive\Desktop\fitzone\FitZone\
+build_property.ProjectDir = C:\Users\shish\OneDrive\Desktop\fitzone\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\shish\OneDrive\Desktop\fitzone\FitZone
+build_property.MSBuildProjectDirectory = C:\Users\shish\OneDrive\Desktop\fitzone
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/fitzone/create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZml0em9uZVxjcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/fitzone/delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZml0em9uZVxkZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/fitzone/details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZml0em9uZVxkZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/fitzone/edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZml0em9uZVxlZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/fitzone/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZml0em9uZVxpbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/Home/Index.cshtml]
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/Home/Privacy.cshtml]
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/Shared/Error.cshtml]
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/membershipPlan/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVtYmVyc2hpcFBsYW5cY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/membershipPlan/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVtYmVyc2hpcFBsYW5cZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/membershipPlan/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVtYmVyc2hpcFBsYW5cZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/membershipPlan/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVtYmVyc2hpcFBsYW5cZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/membershipPlan/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVtYmVyc2hpcFBsYW5caW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/membershipPlan/plan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVtYmVyc2hpcFBsYW5ccGxhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/_ViewImports.cshtml]
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/_ViewStart.cshtml]
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shish/OneDrive/Desktop/fitzone/FitZone/Views/Shared/_Layout.cshtml]
+[C:/Users/shish/OneDrive/Desktop/fitzone/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k80e022vhz

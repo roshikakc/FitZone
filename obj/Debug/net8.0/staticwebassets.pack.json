@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\images\\gym.jpg",
+      "PackagePath": "staticwebassets\\images\\gym.jpg"
+    },
+    {
       "Id": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

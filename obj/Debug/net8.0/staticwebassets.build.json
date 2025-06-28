@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LLkRUMsvkLLsxfI9Wl6GZlglOKOHZMsmyiN2ax7Je5M=",
+  "Hash": "2IP8vl0nEyYi8kIV0Nr0SPzN/vYbdB1DwBocu9ETXdM=",
   "Source": "FitZone",
   "BasePath": "_content/FitZone",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\images\\gym.jpg",
+      "SourceId": "FitZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\",
+      "BasePath": "_content/FitZone",
+      "RelativePath": "images/gym.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gym.jpg"
     },
     {
       "Identity": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\js\\site.js",

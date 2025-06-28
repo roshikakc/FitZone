@@ -56,12 +56,35 @@ public class MembershipPlanController : Controller
     {
         return View(plans);
     }
-    
-     //show create form
+
+    //show create form
     [HttpGet]
     public IActionResult Create()
     {
         return View();
+    }
+    
+        //create employee
+    [HttpPost]
+
+    public IActionResult Create(UserMembership userMembership)
+    {
+        string connString = _configuration.GetConnectionString("DefaultConnection");
+        var conn = new MySqlConnection(connString);
+        conn.Open();
+        string query = "INSERT INTO usermembership (UserName, Email, PhoneNumber, SelectedPlan) " +
+                       "VALUES ( @UserName, @Email, @PhoneNumber, @SelectedPlan)";
+
+        var cmd = new MySqlCommand(query, conn);
+        cmd.Parameters.AddWithValue("@UserName", userMembership.UserName);
+        cmd.Parameters.AddWithValue("@Email", userMembership.Email);
+        cmd.Parameters.AddWithValue("@PhoneNumber", userMembership.PhoneNumber);
+        cmd.Parameters.AddWithValue("@SelectedPlan", userMembership.SelectedPlan);
+
+        cmd.ExecuteNonQuery();
+        conn.Close();
+
+        return RedirectToAction("Index");
     }
 }
 

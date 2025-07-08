@@ -13,8 +13,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\images\\digital.jpg",
+      "PackagePath": "staticwebassets\\images\\digital.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\images\\group.jpg",
+      "PackagePath": "staticwebassets\\images\\group.jpg"
+    },
+    {
       "Id": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\images\\gym.jpg",
       "PackagePath": "staticwebassets\\images\\gym.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\images\\outdoor.jpg",
+      "PackagePath": "staticwebassets\\images\\outdoor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\images\\personaltraining.jpg",
+      "PackagePath": "staticwebassets\\images\\personaltraining.jpg"
     },
     {
       "Id": "C:\\Users\\shish\\OneDrive\\Desktop\\fitzone\\wwwroot\\js\\site.js",
